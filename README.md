@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Lua programming: unexpected arithmetic errors stemming from loose type checking.  The `bug.lua` file shows a function that attempts to add 1 to a variable that may or may not be a number.  The `bugSolution.lua` file shows how to mitigate this using explicit type checking or error handling.
